@@ -78,6 +78,7 @@ Se crea el display, ventana que mostrara las acciones de los botones, tendra un 
         page.update()
   ```
 Se define la función **def number_click():** ejecutada cada vez que se oprime un boton, para obtener el valor del boton presionado tenemos a **value**, usamos la sentencia if-else para sustituir el cero por el numero oprimido y concatener el siguiente numero oprimido. Finalmente se actualiza la interfaz con cada cambio.
+
 **5.Eliminar**
 ```Python
   def clear(i):
@@ -86,6 +87,7 @@ Se define la función **def number_click():** ejecutada cada vez que se oprime u
 
   ```
 Restablece el "0" en el displey cada que se oprime el boton **c**.
+
 **6.Botones**
 ```Python
    grid = ft.GridView(
@@ -106,6 +108,7 @@ Se usa la función **GridView** para organizar los botones define cuanto botones
             on_click=number_click
   ```
 En esta fraccion del código se define las caracteristicas que tiene el boton, el numero o letra que contine y su color, el color del boton, sus medidas y el evento click, que hace posible la ejecuion cada que se oprime.
+
 **7.Organizacion y Ejecución**
 ```Python
    page.add(
@@ -117,8 +120,12 @@ En esta fraccion del código se define las caracteristicas que tiene el boton, e
 ft.app(target=main)
   ```
 Para finalizar la organización de los botones, uasmos **page.add** donde definimos que primero debe estar el display seguido por el grid y que su tamaño debe adaptarse al de los botones del grid.
-Ahora con todo definido damos la orden de que se ejecute con **ft.app(target=main)**
-## Resultado
-La  siguinete imagen ilustra el resultado esperado de el código ejecutado.
+Ahora con todo definido damos la orden de que se ejecute con **ft.app(target=main)**}
 
-[Da click para ver el código completo](nombre-del-archivo)
+## Resultado
+La  siguiente imagen ilustra el resultado esperado de el código ejecutado.
+
+[Da click para ver el código completo](./Calculadora TAP.py)
+
+<img width="332" height="387" alt="Captura de pantalla 2026-02-08 204005" src="https://github.com/user-attachments/assets/ddeed96b-f67c-4c11-99dc-b77ba1dcd0c7" />
+
