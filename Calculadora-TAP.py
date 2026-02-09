@@ -6,7 +6,7 @@ def main(page: ft.Page):
     page.window_height = 300
     page.padding = 30
 
-    # Display
+    #define el área donde se veran los números
     display_text = ft.Text("0", size=30)
 
     display = ft.Container(
@@ -19,7 +19,7 @@ def main(page: ft.Page):
         height=70,
     )
 
-    # Acción de botones numéricos
+    # define el evento de click para cada boton
     def number_click(i):
         value = i.control.content.value
         if display_text.value == "0":
@@ -28,12 +28,12 @@ def main(page: ft.Page):
             display_text.value += value
         page.update()
 
-    # Borrar
+    # Boton c
     def clear(i):
         display_text.value = "0"
         page.update()
 
-    # Grid
+    # area donde estan los botones
     grid = ft.GridView(
         runs_count=3,
         spacing=10,
@@ -43,7 +43,7 @@ def main(page: ft.Page):
         expand=False
     )
 
-    # Botones
+    # caracteristicas de los botones
     grid.controls.extend([
         ft.ElevatedButton(
             content=ft.Text("1",color=ft.Colors.BLACK),
