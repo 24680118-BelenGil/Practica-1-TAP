@@ -124,8 +124,7 @@ Ahora con todo definido damos la orden de que se ejecute con **ft.app(target=mai
 
 ## Resultado
 La  siguiente imagen ilustra el resultado esperado de el código ejecutado.
-
-[Da click para ver el código completo](./Calculadora TAP.py)
+[Da click para ver el código completo](./Calculadora-TAP.py)
 
 <img width="332" height="387" alt="Captura de pantalla 2026-02-08 204005" src="https://github.com/user-attachments/assets/ddeed96b-f67c-4c11-99dc-b77ba1dcd0c7" />
 
